@@ -24,7 +24,9 @@ body{
     align-items: center;
     background-color: #e1eeff;
     padding: 15px;
+    position: relative;
 }
+
 .container{
     max-width: 450px;
     width: 100%;
