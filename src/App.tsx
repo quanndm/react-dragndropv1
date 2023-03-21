@@ -127,7 +127,8 @@ function App() {
 	}
 
 	return (
-		<div className="container" ref={containerRef}>
+		<div className="container" style={{position: "relative"}} ref={containerRef}>
+			<h1 style={{position: "fixed", top: "5%", left:"50%", transform: "translateX(-50%)"}}>React Drag and Drop Example</h1>
 			{
 				data && data.map((item, index)=>(
 					<div key={item.id} onPointerDown={e=>dragStart(e, index)}>
